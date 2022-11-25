@@ -1,0 +1,518 @@
+/*  ================================
+        global area start
+    ================================ */
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    color: #1a1a1a;
+}
+
+a,
+a:hover,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.main-div {
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*  ================================
+        global area end
+    ================================ */
+
+/*  ================================
+        header area start
+    ================================ */
+
+.why-us {
+    width: 20%;
+    float: left;
+}
+
+.why-us h3 {
+    background-color: #9929EB;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 14px 20px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.why-us i.fa {
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.support-box {
+    overflow: hidden;
+}
+
+.support-box ul li {
+    float: left;
+    width: 25%;
+    list-style: none;
+    position: relative;
+    border: 1px solid #D1D1D1;
+    padding: 10px 0;
+    border-left: 0;
+}
+
+.support-box ul li:last-child {
+    margin-right: 0;
+}
+
+.service-box {
+    overflow: hidden;
+    width: 80%;
+    float: left;
+}
+
+.service-left {
+    width: 20%;
+    float: left;
+    text-align: right;
+}
+
+.service-left i {
+    font-size: 30px;
+    color: #600BFA;
+}
+
+.service-right {
+    width: 80%;
+    font-weight: 700;
+    float: right;
+    padding: 3px 10px;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.5s;
+    color: #2D2E2F;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.service-right:hover {
+    color: #2D2E2F;
+}
+
+.logo img {
+    width: 176px;
+}
+
+.header-wraper {
+    margin: 20px 0;
+}
+
+.satisfacation {
+    padding: 30px 0;
+}
+
+/*======================== Menu Design ==================*/
+
+.menu-area {}
+
+#navbar {
+    border-bottom: 5px solid #600BFA;
+    background-color: #600BFA;
+}
+
+#menu-switcher,
+.navbar-header > label,
+.switch {
+    display: none;
+}
+
+.menu-container label::before {
+    border-bottom: 2px solid #600BFA;
+    box-shadow: 0 5px 0 0 #600BFA, 0 0 0 0 inset, 0 -5px 0 0 #600BFA;
+    content: "";
+    height: 0;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -1px;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+}
+
+.switch {
+    width: 100%;
+    float: left;
+    height: auto;
+    min-height: 45px;
+    position: relative;
+}
+
+.menu-container label {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    cursor: pointer;
+    display: none;
+    height: 35px;
+    padding: 0;
+    position: absolute !important;
+    right: 0;
+    top: 15px;
+    width: 40px;
+    z-index: 9999;
+    border: 1px solid #600BFA;
+}
+
+#navbar {
+    text-align: center;
+}
+
+#navbar ul {
+    display: inline-flex;
+}
+
+#navbar ul li {
+    display: inline-block;
+    background-color: #010101;
+}
+
+#navbar ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    line-height: 25px;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: 0.5s;
+    padding: 12px 20px;
+    letter-spacing: 1px;
+}
+
+#navbar ul li a i.fa {
+    margin-right: 5px;
+}
+
+
+#navbar ul li a:hover {
+    background-color: #9929EB;
+    color: #fff;
+}
+
+/* menu part end */
+
+/*  ================================
+        header area end
+    ================================ */
+
+/*  ================================
+        product title area start
+    ================================ */
+
+.pro-title {
+    background-color: #600BFA;
+    color: #fff;
+    padding: 15px 50px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pro-title > h2 {
+    font-size: 24px;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*  ================================
+        product title area end
+    ================================ */
+
+/*  ================================
+        product area start
+    ================================ */
+
+.des-title {
+    text-align: left;
+}
+
+.des-title > h2 {
+    font-size: 20px;
+    margin: 0;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+}
+
+.product-wraper {
+    border: 1px solid #D1D1D1;
+    overflow: hidden;
+    padding: 40px 20px;
+}
+
+.product-dec h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #600BFA;
+    text-transform: capitalize;
+    font-size: 22px;
+    margin: 10px 0 10px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.product-dec h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #343434;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.product-dec p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.product-dec ul,
+.tab-list ul {
+    margin-bottom: 15px;
+}
+
+.product-dec ul li,
+.tab-list ul li {
+    list-style: none;
+    padding: 5px 20px;
+    position: relative;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.product-dec ul li::before,
+.tab-list ul li::before {
+    position: absolute;
+    content: "\f00c";
+    font-family: fontawesome;
+    left: 0;
+    color: #600BFA;
+}
+
+.pro-border {
+    border: 1px solid #D1D1D1;
+    padding: 25px 40px;
+}
+
+.bt {
+    border-top: 0;
+}
+
+.border-box {
+    background-color: #f8f8f8;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.col-half {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+.price,
+.buynow,
+.save,
+.percent {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 10px 5px;
+    font-size: 14px;
+}
+
+.buynow {
+    color: #0158AC;
+}
+
+.save {
+    color: #C30A1D;
+}
+
+.col-half {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+table th {
+    border-right: 1px solid #E1E1E1;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.table-details {
+    font-size: 14px;
+}
+
+table tr.odds th,
+table tr.odds td {
+    background-color: #fff;
+    padding: 10px 0px;
+    width: 50%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+table tr.even th,
+table tr.even td {
+    background-color: #f1f1f1;
+    padding-left: 10px;
+}
+
+/*  ================================
+        product area end
+    ================================ */
+
+/*  ================================
+        tab area start
+    ================================ */
+
+.tab-part-area {
+    padding: 20px 0;
+}
+
+section.tab-section {
+    display: none;
+    padding: 40px 45px;
+    border: 1px solid #ddd;
+    color: #1a1a1a;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tab-part-area input {
+    display: none;
+}
+
+.tab-part-area label {
+    color: #1a1a1a;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F8F8FA;
+    border: 1px solid #ddd;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tab-part-area label:hover {
+    cursor: pointer;
+}
+
+.tab-part-area input:checked + label {
+    color: #fff;
+    border: 1px solid #600BFA;
+    background-color: #600BFA;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+    display: block;
+}
+
+.tab-part-area section li {
+    font-size: 15px;
+    padding: 5px 0;
+    padding-left: 25px;
+}
+
+.tab-section h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #3a3a3a;
+    margin: 10px 0 30px;
+    font-weight: 600;
+}
+
+.tab-section p {
+    color: #3D3D3D;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tab-section p a {
+    color: #600BFA;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tab-section p:last-child {
+    margin-bottom: 0;
+}
+
+.tab-section img {
+    width: 250px;
+}
+
+/*  ================================
+        tab area end
+    ================================ */
+
+/*  ================================
+        footer area start
+    ================================ */
+.main-footer {
+    background-color: #600BFA;
+}
+
+.copy-right {
+    padding: 30px 0;
+}
+
+.copy-right p a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.copy-right p {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+/*  ================================
+        footer area end
+    ================================ */
